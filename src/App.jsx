@@ -1,16 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Navbar from './components/Navbar'
+import Sidebar from './components/Sidebar'
+import Feed from './components/Feed'
+import Rightbar from './components/Rightbar'
+import { Box, Stack } from '@mui/material'
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        hello world
-      </div>
-    </>
+    <Box>
+      <Navbar />
+      <Stack direction="row" spacing={2} justifyContent='space-between'>
+        <Sidebar />
+        <Feed />
+        <Rightbar />
+      </Stack>
+        
+      </Box>
   )
 }
 

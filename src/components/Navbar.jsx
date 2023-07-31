@@ -59,7 +59,7 @@ const Navbar = () => {
                     sx={{ display: { xs: 'block', sm: 'none' } }}
                 />
                 <Search>
-                    <InputBase placeholder='search...' />
+                    <InputBase placeholder='Search...' />
                 </Search>
                 <Icons>
                     <Badge badgeContent={4} color='error'>

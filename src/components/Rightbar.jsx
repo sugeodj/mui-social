@@ -52,12 +52,6 @@ const Rightbar = () => {
                             alt=''
                         />
                     </ImageListItem>
-                    <ImageListItem>
-                        <img
-                            src='https://images.unsplash.com/photo-1471357674240-e1a485acb3e1?w=164&h=164&fit=crop&auto=format'
-                            alt=''
-                        />
-                    </ImageListItem>
                 </ImageList>
                 <Typography variant='h6' fontWeight={100} mt={2}>
                     Latest Conversations

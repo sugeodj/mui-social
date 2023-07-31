@@ -47,13 +47,13 @@ const Navbar = () => {
     const [open, setOpen] = React.useState(false);
 
     return (
-        <AppBar position='stick'>
+        <AppBar position='sticky'>
             <StyledToolbar>
                 <Typography
                     variant='h6'
                     sx={{ display: { xs: 'none', sm: 'block' } }}
                 >
-                    React & Material-UI Sample Application
+                    sugeodj.dev
                 </Typography>
                 <KeyboardCommandKey
                     sx={{ display: { xs: 'block', sm: 'none' } }}
